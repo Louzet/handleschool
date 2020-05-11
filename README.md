@@ -5,7 +5,10 @@ HandleSchool est un CMS libre de gestion administrative d'une école
 
 ## Utilities Commands
 ```bash
-## Permet de lancer le serveur de développement, accessible sur http://localhost:8000
+## premierement, demarrer le virtual environment
+pipenv shell
+
+## Ensuite lancer le serveur de développement, accessible sur http://localhost:8000
 python manage.py runserver
 
 
