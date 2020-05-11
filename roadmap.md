@@ -1,18 +1,4 @@
-# HandleSchool
-
-HandleSchool est un CMS libre de gestion administrative d'une école
-
-
-## Utilities Commands
-```bash
-## Permet de lancer le serveur de développement, accessible sur http://localhost:8000
-python manage.py runserver
-
-
-```
-
-
-## roadmap
+## Roadmap
 
 - [ ] Une interface de connexion
 - [ ] Fonctionnalié de mot de passe oublié, avec envoie d'email
