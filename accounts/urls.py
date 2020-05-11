@@ -5,6 +5,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('accounts/', views.get_accounts),
-    path('accounts/create', views.post_accounts),
+    path('', views.get_accounts),
+    path('create', views.post_accounts),
 ]
