@@ -1,1 +1,3 @@
 .idea
+handleschool/__pycache__/
+db.sqlite3
