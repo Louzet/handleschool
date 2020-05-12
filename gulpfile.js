@@ -11,11 +11,10 @@ sass.compiler = require('node-sass')
 
 gulp.task('copycss', function (done) {
   gulp
-    .src("assets/scss/style.scss")
+    .src("assets/scss/styles.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(postcss([tailwind, autoprefixer]))
-    .pipe(minify())
-    .pipe(gulp.dest("home/static/home"));
+    .pipe(gulp.dest("static/css"));
 
   done();
 })
