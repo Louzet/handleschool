@@ -1,0 +1,30 @@
+{
+  "name": "handleschoolproject",
+  "version": "0.0.1",
+  "description": "HandleSchool est un CMS libre de gestion administrative d'une école",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louzet/handleschool.git"
+  },
+  "author": "Mickael Louzet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Louzet/handleschool/issues"
+  },
+  "homepage": "https://github.com/Louzet/handleschool#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp4-run-sequence": "^1.0.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}

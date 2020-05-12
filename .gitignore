@@ -5,5 +5,13 @@
 
 handleschool/__pycache__/
 **/__pycache__/
+__pycache__/
 
+build/
+
+# Django stuff
 db.sqlite3
+*.log
+
+# npm stuff
+node_modules/
