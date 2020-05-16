@@ -16,6 +16,12 @@ gulp.task('copycss', function (done) {
     .pipe(postcss([tailwind, autoprefixer]))
     .pipe(gulp.dest("static/css"));
 
+  gulp
+    .src("assets/scss/sidebar.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(postcss([tailwind, autoprefixer]))
+    .pipe(gulp.dest("static/css"))
+
   done();
 })
 
